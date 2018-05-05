@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import requests
 import re
+import pymysql
+
 
 class Item:
     def __init__(self, url):
@@ -75,7 +77,7 @@ class Motorcycle(Item):
         adAttrVals = soup.find_all(class_="ad-details__ad-attribute-value")
 
         #Set defaults 
-        #--------------------------------------------------------------------------------
+        #----------------------------------------------------------------------
         listDate = "NA"
         displacement = "NA"
         make = "NA"
@@ -83,14 +85,15 @@ class Motorcycle(Item):
         year = "NA"
         kms = "NA"
         registered = "NA"
-        #--------------------------------------------------------------------------------
+        #----------------------------------------------------------------------
         
         #Check all attributes for important information
         for i in range(0,len(adAttrName)):
-            print(adAttrName[i].contents[0], "Date Listed:" in adAttrName[i].contents[0])
+            #print(adAttrName[i].contents[0], "Date Listed:" in adAttrName[i].contents[0])
             tempName = adAttrName[i].contents[0]
             if "Date Listed:" in tempName:
-                listDate = adAttrVals[i].contents[0].lstrip()
+                listDateLst = adAttrVals[i].contents[0].lstrip().split('/')
+                listDate = listDateLst[2]+'-'+listDateLst[1]+'-'+listDateLst[0]
             elif "Displacement (cc):" in tempName:
                 displacement = adAttrVals[i].contents[0].lstrip()
             elif "Make:" in tempName:
@@ -102,10 +105,40 @@ class Motorcycle(Item):
             elif "KMs:" in tempName:
                 kms = adAttrVals[i].contents[0].lstrip()
             elif "Registered:" in tempName:
-                registered = adAttrVals[i].contents[0].lstrip() 
+                if adAttrVals[i].contents[0].lstrip() == "Yes":
+                    registered = "Y"
+                elif  adAttrVals[i].contents[0].lstrip() == "No":
+                    registered = "N"
         
 
         return price, listDate, displacement, make, model, year, kms, registered
+
+    def dbInsert(self, password):
+        db = pymysql.connect(host="localhost", user="testUser", passwd=password, db="gumtreeItems")
+        cursor = db.cursor()
+	
+        # Insert to table
+        sql = "INSERT INTO motorcycles VALUES (NULL, '%s', '%s', '%s', '%s', %d, %d, '%s', '%s', '%s', '%s', '%s');" % (self.url, self.make, self.model, self.name, float(self.price), float(self.kms), self.location, self.listDate, self.year, self.displacement, self.registered)
+
+        print(sql)
+
+        testing =(self.url, self.make, self.model, self.name, float(self.price), float(self.kms), self.location, self.listDate, self.year, self.displacement, self.registered)
+        for i in range(0, len(testing)):
+            print(testing[i], type(testing[i]))
+            if isinstance(testing[i], str):
+                print(len(testing[i]))
+
+
+        try:
+            cursor.execute(sql)
+            db.commit()
+        except:
+            print("Didn't work")
+            db.rollback()
+
+        db.close()
+
+
 
 
 def findURLs(item, category, allPages):
@@ -176,6 +209,8 @@ def findURLs(item, category, allPages):
 
 
     return urlList
+    
+
 
 
 
@@ -185,11 +220,19 @@ if __name__ == "__main__":
     #test2 = Item("/s-ad/hastings/laptops/13-macbook-pro-with-touch-bar/1181721019")
     #print(test2.price)
     #print(test.price, test.listDate)
+
+    
     curTime = datetime.now()
     urls = findURLs("kawasaki+ninja", "motorcycles", True)
     print(len(urls))
     perfTime = datetime.now() - curTime
     print("Process took: ", perfTime.total_seconds(), "Seconds")
+    test = Motorcycle(urls[0])
+    #print(test.listDate)
+    password = "BorrisBulletDodger"
+    #password = input("Please Enter Your Password: ")
+    test.dbInsert(password)
+
     #data = []
     #for i in range(0, 1):
     #    temp = Motorcycle(urls[i])
