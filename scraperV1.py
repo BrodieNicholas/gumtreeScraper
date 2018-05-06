@@ -2,7 +2,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import requests
 import re
-import pymysql
+#import pymysql
+#from tqdm import tqdm
 
 
 class Item:
@@ -14,7 +15,7 @@ class Item:
         self.category = url.split("/")[3]
         self.name = url.split("/")[4]
 
-        #self.price, self.listDate = self.scrape()
+        #######################################Fix This(url changed, extra /'s)##########################
 
     def timeSinceQuery(self):
         """ Find time between object creation and now"""
@@ -31,7 +32,6 @@ class Item:
             print(page.status_code)
         soup = BeautifulSoup(page.content, 'html.parser')
 
-        
 
         price = soup.find_all(class_="user-ad-price__price")[0].contents[0]
 
@@ -39,29 +39,25 @@ class Item:
         adAttrName = soup.find_all(class_="vip-ad-attributes__name")
         
         for i in range(0,len(adAttrName)):
-            #print("contents: ", adAttrVals[i].contents, adAttrName[i].contents)
-            #print(adAttrVals[i].contents[0])
-            #print(adAttrVals[i].contents[0]=="Date Listed")
-            #print("")
             if adAttrVals[i].contents[0] == "Date Listed":
                 listDate = adAttrName[i].contents[0]
         
         return price, listDate
-        #print(listDate)
 
 class Motorcycle(Item):
     def __init__(self, url):
         super().__init__(url)
         self.price, self.listDate, self.displacement, self.make, self.model, \
-            self.year, self.kms, self.registered = self.scrape()
+            self.year, self.kms, self.registered, self.regExpiry, self.colour, \
+            self.description, self.learner, self.listType = self.scrape()
     
 
 
     def scrape(self):
         """Pull Information about the motorcycle"""
         #Request the page from the internet
-        page = requests.get("https://www.gumtree.com.au"+self.url)
-        print("https://www.gumtree.com.au"+self.url)
+        page = requests.get(self.url)
+        print(self.url)
 
         #Check if page is working
         if page.status_code != 200:
@@ -71,25 +67,40 @@ class Motorcycle(Item):
 
         
         #Find price
-        price = soup.find_all(class_="j-ad-price")[0]['content']
+        try:
+            price = soup.find_all(class_="j-ad-price")[0]['content']
+        except:
+            price = "NULL"
         #Find attributes names/values
         adAttrName = soup.find_all(class_="ad-details__ad-attribute-name")
         adAttrVals = soup.find_all(class_="ad-details__ad-attribute-value")
+        #Find description
+        try:
+            description = ""
+            descriptionLst = soup.find_all(id="ad_description_details_content")[0].contents
+            for i in range(len(descriptionLst)):
+                if isinstance(descriptionLst[i], str):
+                    description = description + descriptionLst[i].lstrip() + " "
+        except:
+            description = "NULL"
 
         #Set defaults 
         #----------------------------------------------------------------------
-        listDate = "NA"
-        displacement = "NA"
-        make = "NA"
-        model = "NA"
-        year = "NA"
-        kms = "NA"
-        registered = "NA"
+        listDate = "NULL"
+        displacement = "NULL"
+        make = "NULL"
+        model = "NULL"
+        year = "NULL"
+        kms = "NULL"
+        registered = "NULL"
+        regExpiry = "NULL"
+        colour = "NULL"
+        learner = "NULL"
+        listType = "NULL"
         #----------------------------------------------------------------------
         
         #Check all attributes for important information
         for i in range(0,len(adAttrName)):
-            #print(adAttrName[i].contents[0], "Date Listed:" in adAttrName[i].contents[0])
             tempName = adAttrName[i].contents[0]
             if "Date Listed:" in tempName:
                 listDateLst = adAttrVals[i].contents[0].lstrip().split('/')
@@ -109,25 +120,40 @@ class Motorcycle(Item):
                     registered = "Y"
                 elif  adAttrVals[i].contents[0].lstrip() == "No":
                     registered = "N"
-        
+            elif "Registration Expiry:" in tempName:
+                regExpLst = adAttrVals[i].contents[0].lstrip().split('/')
+                regExpiry = regExpLst[2]+'-'+regExpLst[1]+'-'+regExpLst[0]
+            elif "Colour:" in tempName:
+                colour = adAttrVals[i].contents[0].lstrip()
+            elif "Learner Approved:" in tempName:
+                if adAttrVals[i].contents[0].lstrip() == "Yes":
+                    learner = "Y"
+                elif  adAttrVals[i].contents[0].lstrip() == "No":
+                    learner = "N"
+            elif "Listing Type:" in tempName:
+                listType = adAttrVals[i].contents[0].lstrip()
 
-        return price, listDate, displacement, make, model, year, kms, registered
+
+        return price, listDate, displacement, make, model, year, kms, registered, regExpiry, colour, description, learner, listType
 
     def dbInsert(self, password):
-        db = pymysql.connect(host="localhost", user="testUser", passwd=password, db="gumtreeItems")
+        db = pymysql.connect(host="localhost", user="testUser", passwd=password, db="allItems")
         cursor = db.cursor()
 	
         # Insert to table
-        sql = "INSERT INTO motorcycles VALUES (NULL, '%s', '%s', '%s', '%s', %d, %d, '%s', '%s', '%s', '%s', '%s');" % (self.url, self.make, self.model, self.name, float(self.price), float(self.kms), self.location, self.listDate, self.year, self.displacement, self.registered)
+        sql = "INSERT IGNORE INTO motorcycles VALUES ('%s', '%s', '%s', '%s', %d, %d, '%s', '%s', '%s', '%s', \
+            '%s', '%s', '%s', '%s', '%s', '%s', NULL);" \
+            % (self.url, self.make, self.model, self.name, float(self.price), float(self.kms), self.location, \
+            self.listDate, self.year, self.displacement, self.registered, self.regExpiry, self.colour, self.description, \
+            self.learner, self.listType)
 
-        print(sql)
-
+        """
         testing =(self.url, self.make, self.model, self.name, float(self.price), float(self.kms), self.location, self.listDate, self.year, self.displacement, self.registered)
         for i in range(0, len(testing)):
             print(testing[i], type(testing[i]))
             if isinstance(testing[i], str):
                 print(len(testing[i]))
-
+        """
 
         try:
             cursor.execute(sql)
@@ -146,6 +172,8 @@ def findURLs(item, category, allPages):
     page = requests.get("http://www.gumtree.com.au/s-%s/%s/k0c18626" % (category, item))
     soup = BeautifulSoup(page.content, 'html.parser')
 
+    curTime1 = datetime.now()
+
     itemListing = soup.find_all(class_="user-ad-row link link--base-color-inherit \
         link--hover-color-none link--no-underline")
     for i in soup.find_all(class_="user-ad-row user-ad-row--featured-or-premium link \
@@ -158,7 +186,7 @@ def findURLs(item, category, allPages):
 
     urlList = []
     for i in range(0, len(itemListing)):
-        urlList.append(itemListing[i]['href'])
+        urlList.append("https://www.gumtree.com.au" + itemListing[i]['href'])
     
     #Loop for all pages
     if allPages:
@@ -166,6 +194,9 @@ def findURLs(item, category, allPages):
         lastPageURL = soup.find(class_="page-number-navigation__link page-number-navigation__link-last \
             link link--base-color-primary link--hover-color-none link--no-underline")['href']
         lastPage = int(re.search('page-(\d+)', lastPageURL).group(1))
+
+        curTime2 = datetime.now()
+
         #Ask user if they wish to proceed
         while True:
             userCheck = input("%d pages have been found. How many do you wish to search?(1, 2, ..., all or quit): " % lastPage)
@@ -183,7 +214,9 @@ def findURLs(item, category, allPages):
             else:
                 break
         
-        
+
+                
+        curTime3 = datetime.now()
 
         #Scrape listing URLs from each page
         for i in range(2, searchPage+1):
@@ -205,37 +238,177 @@ def findURLs(item, category, allPages):
                 itemListing.append(i)
 
             for i in range(0, len(itemListing)):
-                urlList.append(itemListing[i]['href'])
+                urlList.append("https://www.gumtree.com.au" + itemListing[i]['href'])
+
+    #Display process time
+    perfTime = datetime.now() - curTime3 + (curTime2 - curTime1)
+    print("Process took: ", perfTime.total_seconds(), "Seconds")
 
 
     return urlList
+
+
     
+def createTable():
+    """ Creates a predefined mySQL Table for motorbikes"""
+    #Create connection
+    db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodger", db="allItems")
+    cursor = db.cursor()
+
+    try:
+        sql = "CREATE TABLE IF NOT EXISTS motorcycles(\
+            url VARCHAR(255) NOT NULL PRIMARY KEY, \
+            make VARCHAR(150) DEFAULT NULL, \
+            model VARCHAR(150) DEFAULT NULL, \
+            name VARCHAR(150) DEFAULT NULL, \
+            price FLOAT DEFAULT NULL, \
+            kms DOUBLE DEFAULT NULL, \
+            location VARCHAR(150) DEFAULT NULL, \
+            listDate DATE DEFAULT NULL, \
+            year YEAR(4) DEFAULT NULL, \
+            displacement VARCHAR(15) DEFAULT NULL, \
+            registered CHAR(1) DEFAULT NULL, \
+            regExpiry DATE DEFAULT NULL, \
+            colour VARCHAR(30) DEFAULT NULL, \
+            description TEXT DEFAULT NULL, \
+            learner CHAR(1) DEFAULT NULL, \
+            listType VARCHAR(40) DEFAULT NULL, \
+            adExpiry DATE DEFAULT NULL)"
+        
+        # Create table
+        cursor.execute(sql)
+        db.commit()
+
+    except Exception as e:
+        db.rollback()
+        print("Exception occured: {}".format(e))
 
 
+    # Close database
+    db.close()
 
+
+def adExpired(auto=False):
+    """ Checks all listings to see if still available. Best results if run daily. """
+    #Create connection 
+    db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodger", db="allItems")
+    cursor = db.cursor()
+
+    #Record todays date
+    curTime = datetime.now().strftime("%Y-%m-%d")
+    
+    #SQL Query
+    sql = "SELECT url, adExpiry FROM motorcycles WHERE adExpiry=NULL"
+
+    #Find data
+    try: 
+        data = cursor.execute(sql)
+        db.commit()
+    except Exception as e:
+        db.rollback()
+        print("Exception occured: {}".format(e))
+
+    #continue check
+    while auto:
+        cont = input("%d listings found - Do you wish to continue? (Y/n): " % (len(data)))
+        if cont == 'Y':
+            break
+        elif cont == 'n':
+            quit
+        else:
+            print("Please enter either 'Y' or 'n'")
+            continue
+    
+    for i in tqdm(range(0, len(data))):
+        #Request the page from the internet
+        page = requests.get(data[i][0])
+
+        #Check if page is working
+        if page.status_code != 200:
+            print(page.status_code)
+        #Load page contents into soup
+        soup = BeautifulSoup(page.content, 'html.parser')
+
+        #Try find ad-expired id
+        try:
+            test = soup.find_all(id="ad-expired")
+            #if ad-expired found then try statement continues
+            data[i][2] = curTime
+            sql = """UPDATE motorcycles
+            SET adExpiry=%s
+            WHERE url=%s"""
+            try:
+                cursor.execute(sql, (curTime, data[i][0]))
+                db.commit()
+            except Exception as e:
+                db.rollback()
+                print("Exception occured: {}".format(e))
+
+        except:
+            #ad-expired not found, try next url
+            continue
+
+
+    db.close()
 
 
 if __name__ == "__main__":
-    #test = Motorcycle("/s-ad/hendon/motorcycles/2008-honda-cb1000r-naked-with-rego/1158160487")
-    #test2 = Item("/s-ad/hastings/laptops/13-macbook-pro-with-touch-bar/1181721019")
-    #print(test2.price)
-    #print(test.price, test.listDate)
 
-    
-    curTime = datetime.now()
+    """
     urls = findURLs("kawasaki+ninja", "motorcycles", True)
-    print(len(urls))
-    perfTime = datetime.now() - curTime
-    print("Process took: ", perfTime.total_seconds(), "Seconds")
     test = Motorcycle(urls[0])
-    #print(test.listDate)
+    """
+
+
+    page = requests.get("https://www.gumtree.com.au/s-ad/glendale/motorcycles/kawasaki-ninja-650r-2010/1154671295")
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+    #Try find ad-expired id
+    if soup.find(id="ad-expired"):
+        print(soup.find(id="ad-expired"))
+        print("Found ad expired")
+    else:
+        print("Not found")
+
+
+    """
+    #Find URLs
+    urls = findURLs("kawasaki+ninja", "motorcycles", True)
+    print(len(urls) + " URLs have been found")
+
+    #Check if user wishes to proceed
+    while True:
+        cont = input("Do you wish to proceed?")
+        if cont.lower() == 'y' or cont.lower() == 'yes':
+            break
+        elif cont.lower() == 'n' or cont.lower() == 'no':
+            quit()
+        else:
+            print("Please enter y/n")
+            continue
+    
+    password = "BorrisBulletDodger"
+
+    for i in range(len(urls)):
+        temp = Motorcycle(urls[i])
+        temp.dbInsert(password)
+
+    """
+
+    """
+    test = Motorcycle(urls[0])
     password = "BorrisBulletDodger"
     #password = input("Please Enter Your Password: ")
     test.dbInsert(password)
 
-    #data = []
-    #for i in range(0, 1):
-    #    temp = Motorcycle(urls[i])
-    #    data.append(vars(temp))
-    
-    #print(data)
+    """
+
+
+# Possible errors in listings not being sold but ad expiring
+"""Bunch of old urls for later testing
+https://www.gumtree.com.au/s-ad/regents-park/motorcycles/2010-ninja-kawasaki-250-/1073867602
+https://www.gumtree.com.au/s-ad/hocking/motorcycles/great-buy/1112608894
+https://www.gumtree.com.au/s-ad/parkes/motorcycles/1992-zzr-250-ninja/1115904602
+https://www.gumtree.com.au/s-ad/innaloo/motorcycles/2011-kawasaki-ninja-250cc-red-black-motorbike-ideal-for-learner/1122083797
+
+"""
