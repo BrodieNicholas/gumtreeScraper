@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import requests
 import re
-#import pymysql
-#from tqdm import tqdm
+import pymysql
+from tqdm import tqdm
 
 
 class Item:
@@ -22,6 +22,7 @@ class Item:
         return self.time - datetime.now().time()
 
     def scrape(self):
+        
         """ Scrape the items URL for price and date listed
         Returns itemPrice, itemListDate
         """
@@ -330,9 +331,8 @@ def adExpired(auto=False):
         soup = BeautifulSoup(page.content, 'html.parser')
 
         #Try find ad-expired id
-        try:
-            test = soup.find_all(id="ad-expired")
-            #if ad-expired found then try statement continues
+        if soup.find(id="ad-expired"):
+            #Returns true if list not empty
             data[i][2] = curTime
             sql = """UPDATE motorcycles
             SET adExpiry=%s
@@ -343,10 +343,6 @@ def adExpired(auto=False):
             except Exception as e:
                 db.rollback()
                 print("Exception occured: {}".format(e))
-
-        except:
-            #ad-expired not found, try next url
-            continue
 
 
     db.close()
@@ -360,18 +356,8 @@ if __name__ == "__main__":
     """
 
 
-    page = requests.get("https://www.gumtree.com.au/s-ad/glendale/motorcycles/kawasaki-ninja-650r-2010/1154671295")
-    soup = BeautifulSoup(page.content, 'html.parser')
-
-    #Try find ad-expired id
-    if soup.find(id="ad-expired"):
-        print(soup.find(id="ad-expired"))
-        print("Found ad expired")
-    else:
-        print("Not found")
 
 
-    """
     #Find URLs
     urls = findURLs("kawasaki+ninja", "motorcycles", True)
     print(len(urls) + " URLs have been found")
@@ -393,7 +379,7 @@ if __name__ == "__main__":
         temp = Motorcycle(urls[i])
         temp.dbInsert(password)
 
-    """
+    
 
     """
     test = Motorcycle(urls[0])
