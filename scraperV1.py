@@ -4,17 +4,18 @@ import requests
 import re
 import pymysql
 from tqdm import tqdm
-
+from warnings import filterwarnings
+tqdm.monitor_interval = 0
+filterwarnings('ignore', category = pymysql.Warning)
 
 class Item:
     def __init__(self, url):
         #URL split on "/" gives ['', 's-ad', location, category, name, randomNumber]
         self.time = datetime.now().time()
         self.url = url
-        self.location = url.split("/")[2]
-        self.category = url.split("/")[3]
-        self.name = url.split("/")[4]
-
+        self.location = url.split("/")[4]
+        self.category = url.split("/")[5]
+        self.name = url.split("/")[6]
         #######################################Fix This(url changed, extra /'s)##########################
 
     def timeSinceQuery(self):
@@ -58,7 +59,6 @@ class Motorcycle(Item):
         """Pull Information about the motorcycle"""
         #Request the page from the internet
         page = requests.get(self.url)
-        print(self.url)
 
         #Check if page is working
         if page.status_code != 200:
@@ -138,29 +138,34 @@ class Motorcycle(Item):
         return price, listDate, displacement, make, model, year, kms, registered, regExpiry, colour, description, learner, listType
 
     def dbInsert(self, password):
-        db = pymysql.connect(host="localhost", user="testUser", passwd=password, db="allItems")
+        db = pymysql.connect(host="localhost", user="testUser", passwd=password, db="allItems", charset='utf8')
         cursor = db.cursor()
 	
-        # Insert to table
-        sql = "INSERT IGNORE INTO motorcycles VALUES ('%s', '%s', '%s', '%s', %d, %d, '%s', '%s', '%s', '%s', \
-            '%s', '%s', '%s', '%s', '%s', '%s', NULL);" \
-            % (self.url, self.make, self.model, self.name, float(self.price), float(self.kms), self.location, \
-            self.listDate, self.year, self.displacement, self.registered, self.regExpiry, self.colour, self.description, \
-            self.learner, self.listType)
+        #SQL Query
+        sql = "INSERT IGNORE INTO motorcycles VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NULL);"
 
-        """
-        testing =(self.url, self.make, self.model, self.name, float(self.price), float(self.kms), self.location, self.listDate, self.year, self.displacement, self.registered)
-        for i in range(0, len(testing)):
-            print(testing[i], type(testing[i]))
-            if isinstance(testing[i], str):
-                print(len(testing[i]))
-        """
+        #Convert strings into floats
+        if self.price == "":
+            self.price = "NULL"
+        if self.kms == "":
+            self.kms = "NULL"
+        if self.price != "NULL":
+            self.price = float(self.price)
+        if self.kms != "NULL":
+            self.kms = float(self.kms)
 
+        #Insert into database
         try:
-            cursor.execute(sql)
+            cursor.execute(sql, (self.url, self.make, self.model, self.name, \
+                self.price, self.kms, self.location, \
+                self.listDate, self.year, self.displacement, self.registered, \
+                self.regExpiry, self.colour, self.description, \
+                self.learner, self.listType))
+
             db.commit()
-        except:
+        except Exception as e:
             print("Didn't work")
+            print("Exception occured: {}".format(e))
             db.rollback()
 
         db.close()
@@ -220,9 +225,9 @@ def findURLs(item, category, allPages):
         curTime3 = datetime.now()
 
         #Scrape listing URLs from each page
-        for i in range(2, searchPage+1):
+        for i in tqdm(range(2, searchPage+1)):
             #Tell user what is happening
-            print("Scraping Listings on page %d of %d" % (i, searchPage))
+            #print("Scraping Listings on page %d of %d" % (i, searchPage))
             #Find page
             page = requests.get("http://www.gumtree.com.au/s-%s/%s/page-%d/k0c18626" % (category, item, i))
             soup = BeautifulSoup(page.content, 'html.parser')
@@ -253,7 +258,7 @@ def findURLs(item, category, allPages):
 def createTable():
     """ Creates a predefined mySQL Table for motorbikes"""
     #Create connection
-    db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodger", db="allItems")
+    db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodger", db="allItems", charset='utf8')
     cursor = db.cursor()
 
     try:
@@ -292,7 +297,7 @@ def createTable():
 def adExpired(auto=False):
     """ Checks all listings to see if still available. Best results if run daily. """
     #Create connection 
-    db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodger", db="allItems")
+    db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodger", db="allItems", charset='utf8')
     cursor = db.cursor()
 
     #Record todays date
@@ -348,19 +353,15 @@ def adExpired(auto=False):
     db.close()
 
 
+
 if __name__ == "__main__":
 
-    """
-    urls = findURLs("kawasaki+ninja", "motorcycles", True)
-    test = Motorcycle(urls[0])
-    """
-
-
-
+    
+    
 
     #Find URLs
     urls = findURLs("kawasaki+ninja", "motorcycles", True)
-    print(len(urls) + " URLs have been found")
+    print(str(len(urls)) + " URLs have been found")
 
     #Check if user wishes to proceed
     while True:
@@ -375,11 +376,10 @@ if __name__ == "__main__":
     
     password = "BorrisBulletDodger"
 
-    for i in range(len(urls)):
+    for i in tqdm(range(len(urls))):
         temp = Motorcycle(urls[i])
         temp.dbInsert(password)
 
-    
 
     """
     test = Motorcycle(urls[0])
