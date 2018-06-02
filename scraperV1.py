@@ -1,12 +1,20 @@
 from bs4 import BeautifulSoup
 from datetime import datetime
 import requests
+from requests.packages.urllib3.util.retry import Retry
+from requests.adapters import HTTPAdapter
 import re
 import pymysql
 from tqdm import tqdm
 from warnings import filterwarnings
 tqdm.monitor_interval = 0
 filterwarnings('ignore', category = pymysql.Warning)
+
+#Set Retries within Requests
+s = requests.Session()
+retries = Retry(total=5, backoff_factor=0.1, status_forcelist=[ 500, 502, 503, 504])
+s.mount('http://', HTTPAdapter(max_retries=retries))
+
 
 class Item:
     def __init__(self, url):
@@ -27,7 +35,7 @@ class Item:
         """ Scrape the items URL for price and date listed
         Returns itemPrice, itemListDate
         """
-        page = requests.get("https://www.gumtree.com.au"+self.url)
+        page = s.get("https://www.gumtree.com.au"+self.url)
         print("https://www.gumtree.com.au"+self.url)
 
         if page.status_code != 200:
@@ -58,7 +66,7 @@ class Motorcycle(Item):
     def scrape(self):
         """Pull Information about the motorcycle"""
         #Request the page from the internet
-        page = requests.get(self.url)
+        page = s.get(self.url)
 
         #Check if page is working
         if page.status_code != 200:
@@ -175,7 +183,7 @@ class Motorcycle(Item):
 
 def findURLs(item, category, allPages):
     """ Finds all listing urls on first page"""
-    page = requests.get("http://www.gumtree.com.au/s-%s/%s/k0c18626" % (category, item))
+    page = s.get("http://www.gumtree.com.au/s-%s/%s/k0c18626" % (category, item))
     soup = BeautifulSoup(page.content, 'html.parser')
 
     curTime1 = datetime.now()
@@ -229,7 +237,7 @@ def findURLs(item, category, allPages):
             #Tell user what is happening
             #print("Scraping Listings on page %d of %d" % (i, searchPage))
             #Find page
-            page = requests.get("http://www.gumtree.com.au/s-%s/%s/page-%d/k0c18626" % (category, item, i))
+            page = s.get("http://www.gumtree.com.au/s-%s/%s/page-%d/k0c18626" % (category, item, i))
             soup = BeautifulSoup(page.content, 'html.parser')
 
             #Scrape page
@@ -327,7 +335,7 @@ def adExpired(auto=False):
     
     for i in tqdm(range(0, len(data))):
         #Request the page from the internet
-        page = requests.get(data[i][0])
+        page = s.get(data[i][0])
 
         #Check if page is working
         if page.status_code != 200:
