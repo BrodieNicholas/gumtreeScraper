@@ -179,8 +179,6 @@ class Motorcycle(Item):
         db.close()
 
 
-
-
 def findURLs(item, category, allPages):
     """ Finds all listing urls on first page"""
     page = s.get("http://www.gumtree.com.au/s-%s/%s/k0c18626" % (category, item))
@@ -188,14 +186,11 @@ def findURLs(item, category, allPages):
 
     curTime1 = datetime.now()
 
-    itemListing = soup.find_all(class_="user-ad-row link link--base-color-inherit \
-        link--hover-color-none link--no-underline")
-    for i in soup.find_all(class_="user-ad-row user-ad-row--featured-or-premium link \
-        link--base-color-inherit link--hover-color-none link--no-underline"):
+    itemListing = soup.find_all(class_="user-ad-row link link--base-color-inherit link--hover-color-none link--no-underline")
+    for i in soup.find_all(class_="user-ad-row user-ad-row--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline"):
         itemListing.append(i)
 
-    for i in soup.find_all(class_="user-ad-row user-ad-row--premium user-ad-row--featured-or-premium \
-        link link--base-color-inherit link--hover-color-none link--no-underline"):
+    for i in soup.find_all(class_="user-ad-row user-ad-row--premium user-ad-row--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline"):
         itemListing.append(i)
 
     urlList = []
@@ -205,12 +200,11 @@ def findURLs(item, category, allPages):
     #Loop for all pages
     if allPages:
         #Find last page number
-        lastPageURL = soup.find(class_="page-number-navigation__link page-number-navigation__link-last \
-            link link--base-color-primary link--hover-color-none link--no-underline")['href']
+        lastPageURL = soup.find(class_="page-number-navigation__link page-number-navigation__link-last link link--base-color-primary link--hover-color-none link--no-underline")['href']
         lastPage = int(re.search('page-(\d+)', lastPageURL).group(1))
 
         curTime2 = datetime.now()
-
+       
         #Ask user if they wish to proceed
         while True:
             userCheck = input("%d pages have been found. How many do you wish to search?(1, 2, ..., all or quit): " % lastPage)
@@ -228,8 +222,6 @@ def findURLs(item, category, allPages):
             else:
                 break
         
-
-                
         curTime3 = datetime.now()
 
         #Scrape listing URLs from each page
@@ -241,14 +233,11 @@ def findURLs(item, category, allPages):
             soup = BeautifulSoup(page.content, 'html.parser')
 
             #Scrape page
-            itemListing = soup.find_all(class_="user-ad-row link link--base-color-inherit \
-                link--hover-color-none link--no-underline")
-            for i in soup.find_all(class_="user-ad-row user-ad-row--featured-or-premium link \
-                link--base-color-inherit link--hover-color-none link--no-underline"):
+            itemListing = soup.find_all(class_="user-ad-row link link--base-color-inherit link--hover-color-none link--no-underline")
+            for i in soup.find_all(class_="user-ad-row user-ad-row--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline"):
                 itemListing.append(i)
 
-            for i in soup.find_all(class_="user-ad-row user-ad-row--premium user-ad-row--featured-or-premium \
-                link link--base-color-inherit link--hover-color-none link--no-underline"):
+            for i in soup.find_all(class_="user-ad-row user-ad-row--premium user-ad-row--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline"):
                 itemListing.append(i)
 
             for i in range(0, len(itemListing)):
@@ -270,24 +259,24 @@ def createTable():
     cursor = db.cursor()
 
     try:
-        sql = "CREATE TABLE IF NOT EXISTS motorcycles(\
-            url VARCHAR(255) NOT NULL PRIMARY KEY, \
-            make VARCHAR(150) DEFAULT NULL, \
-            model VARCHAR(150) DEFAULT NULL, \
-            name VARCHAR(150) DEFAULT NULL, \
-            price FLOAT DEFAULT NULL, \
-            kms DOUBLE DEFAULT NULL, \
-            location VARCHAR(150) DEFAULT NULL, \
-            listDate DATE DEFAULT NULL, \
-            year YEAR(4) DEFAULT NULL, \
-            displacement VARCHAR(15) DEFAULT NULL, \
-            registered CHAR(1) DEFAULT NULL, \
-            regExpiry DATE DEFAULT NULL, \
-            colour VARCHAR(30) DEFAULT NULL, \
-            description TEXT DEFAULT NULL, \
-            learner CHAR(1) DEFAULT NULL, \
-            listType VARCHAR(40) DEFAULT NULL, \
-            adExpiry DATE DEFAULT NULL)"
+        sql = "CREATE TABLE IF NOT EXISTS motorcycles(" \
+            +"url VARCHAR(255) NOT NULL PRIMARY KEY, " \
+            +"make VARCHAR(150) DEFAULT NULL, "\
+            +"model VARCHAR(150) DEFAULT NULL, "\
+            +"name VARCHAR(150) DEFAULT NULL, "\
+            +"price FLOAT DEFAULT NULL, "\
+            +"kms DOUBLE DEFAULT NULL, "\
+            +"location VARCHAR(150) DEFAULT NULL, "\
+            +"listDate DATE DEFAULT NULL, "\
+            +"year YEAR(4) DEFAULT NULL, "\
+            +"displacement VARCHAR(15) DEFAULT NULL, "\
+            +"registered CHAR(1) DEFAULT NULL, "\
+            +"regExpiry DATE DEFAULT NULL, "\
+            +"colour VARCHAR(30) DEFAULT NULL, "\
+            +"description TEXT DEFAULT NULL, "\
+            +"learner CHAR(1) DEFAULT NULL, "\
+            +"listType VARCHAR(40) DEFAULT NULL, "\
+            +"adExpiry DATE DEFAULT NULL)"
         
         # Create table
         cursor.execute(sql)
@@ -312,27 +301,32 @@ def adExpired(auto=False):
     curTime = datetime.now().strftime("%Y-%m-%d")
     
     #SQL Query
-    sql = "SELECT url, adExpiry FROM motorcycles WHERE adExpiry=NULL"
+    sql = "SELECT url, adExpiry FROM motorcycles WHERE adExpiry IS NULL"
 
     #Find data
     try: 
-        data = cursor.execute(sql)
+        cursor.execute(sql)
+        result = cursor.fetchall()
+        data = [ (i[0], i[1]) for i in result]
         db.commit()
     except Exception as e:
         db.rollback()
         print("Exception occured: {}".format(e))
 
+    print(data)
+
     #continue check
     while auto:
-        cont = input("%d listings found - Do you wish to continue? (Y/n): " % (len(data)))
-        if cont == 'Y':
+        cont = input("%d listings found - Do you wish to continue?: " % (len(data)))
+        if cont.lower() == 'y' or cont.lower() == 'yes':
             break
-        elif cont == 'n':
-            quit
+        elif cont.lower() == 'n' or cont.lower() == 'no':
+            quit()
         else:
-            print("Please enter either 'Y' or 'n'")
+            print("Please enter y/n")
             continue
     
+    count = 0
     for i in tqdm(range(0, len(data))):
         #Request the page from the internet
         page = s.get(data[i][0])
@@ -353,23 +347,64 @@ def adExpired(auto=False):
             try:
                 cursor.execute(sql, (curTime, data[i][0]))
                 db.commit()
+                count += 1
             except Exception as e:
                 db.rollback()
                 print("Exception occured: {}".format(e))
+            finally:
+                db.close()
+        
+    print("%d/%d tracked listings have been sold since last processed" % (count, len(data)))
 
+def checkURLs(table, allURLs):
+    #Create connection 
+    db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodger", db="allItems", charset='utf8')
+    cursor = db.cursor()
 
-    db.close()
+    #SQL Query
+    sql = "SELECT url FROM " + table + ";"
 
+    #Find data
+    try: 
+        cursor.execute(sql)
+        result = cursor.fetchall()
+        oldURLs = [ link[0] for link in result]
+        db.commit()
+    except Exception as e:
+        db.rollback()
+        print("Exception occured: {}".format(e))
+    finally:
+        db.close()
+    
+    try:
+        newURLs = list(set(allURLs) - set(oldURLs))
+    except Exception:
+        newURLs = allURLs
+
+    return newURLs
 
 
 if __name__ == "__main__":
 
-    
-    
+    #Check sold?
+    while True:
+        checkSold = input("Would you like to check db for sold listings?")
+        if checkSold.lower() == 'y' or checkSold.lower() == 'yes':
+            adExpired(True)
+            break
+        elif checkSold.lower() == 'n' or checkSold.lower() == 'no':
+            break
+        else:
+            print("Please enter y/n")
+            continue
 
     #Find URLs
+    print("Finding Listing Pages")
     urls = findURLs("kawasaki+ninja", "motorcycles", True)
     print(str(len(urls)) + " URLs have been found")
+    #Check if already in db
+    urls = checkURLs("motorcycles", urls)
+    print(str(len(urls)) + " URLs are new")
 
     #Check if user wishes to proceed
     while True:
@@ -387,7 +422,7 @@ if __name__ == "__main__":
     for i in tqdm(range(len(urls))):
         temp = Motorcycle(urls[i])
         temp.dbInsert(password)
-
+    
 
     """
     test = Motorcycle(urls[0])
