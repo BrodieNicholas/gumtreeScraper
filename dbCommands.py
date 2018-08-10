@@ -1,12 +1,13 @@
 import pymysql
 
-def importData(table):
+
+def describe(table):
     #Create connection 
     db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodger", db="allItems", charset='utf8')
     cursor = db.cursor()
 
     #SQL Query
-    sql = "SELECT make FROM " + table + " LIMIT 100;"
+    sql = "DESCRIBE " + table + ";"
 
     #Find data
     try: 
@@ -18,9 +19,8 @@ def importData(table):
         print("Exception occured: {}".format(e))
     finally:
         db.close()
-    
+    data = [i[0] for i in data]
     return data
-    
+
 if __name__=='__main__':
-    dbData = importData('motorcycles')
-    print(dbData)
+    print(describe('motorcycles'))

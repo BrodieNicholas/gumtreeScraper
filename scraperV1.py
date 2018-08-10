@@ -179,7 +179,7 @@ class Motorcycle(Item):
         db.close()
 
 
-def findURLs(item, category, allPages):
+def findURLs(item, category, auto=False):
     """ Finds all listing urls on first page"""
     page = s.get("http://www.gumtree.com.au/s-%s/%s/k0c18626" % (category, item))
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -198,14 +198,18 @@ def findURLs(item, category, allPages):
         urlList.append("https://www.gumtree.com.au" + itemListing[i]['href'])
     
     #Loop for all pages
-    if allPages:
-        #Find last page number
-        lastPageURL = soup.find(class_="page-number-navigation__link page-number-navigation__link-last link link--base-color-primary link--hover-color-none link--no-underline")['href']
-        lastPage = int(re.search('page-(\d+)', lastPageURL).group(1))
+    #Find last page number
+    lastPageURL = soup.find(class_="page-number-navigation__link page-number-navigation__link-last link link--base-color-primary link--hover-color-none link--no-underline")['href']
+    lastPage = int(re.search('page-(\d+)', lastPageURL).group(1))
 
-        curTime2 = datetime.now()
-       
-        #Ask user if they wish to proceed
+    curTime2 = datetime.now()
+    
+    #Ask user if they wish to proceed
+    if auto:
+        #Automatically want to search all pages
+        searchPage = lastPage
+    else:
+        #User input for number of pages to search
         while True:
             userCheck = input("%d pages have been found. How many do you wish to search?(1, 2, ..., all or quit): " % lastPage)
             try:
@@ -221,27 +225,28 @@ def findURLs(item, category, allPages):
                     continue
             else:
                 break
-        
-        curTime3 = datetime.now()
+    
+    #Store current time for performance indicator later
+    curTime3 = datetime.now()
 
-        #Scrape listing URLs from each page
-        for i in tqdm(range(2, searchPage+1)):
-            #Tell user what is happening
-            #print("Scraping Listings on page %d of %d" % (i, searchPage))
-            #Find page
-            page = s.get("http://www.gumtree.com.au/s-%s/%s/page-%d/k0c18626" % (category, item, i))
-            soup = BeautifulSoup(page.content, 'html.parser')
+    #Scrape listing URLs from each page
+    for i in tqdm(range(2, searchPage+1)):
+        #Tell user what is happening
+        #print("Scraping Listings on page %d of %d" % (i, searchPage))
+        #Find page
+        page = s.get("http://www.gumtree.com.au/s-%s/%s/page-%d/k0c18626" % (category, item, i))
+        soup = BeautifulSoup(page.content, 'html.parser')
 
-            #Scrape page
-            itemListing = soup.find_all(class_="user-ad-row link link--base-color-inherit link--hover-color-none link--no-underline")
-            for i in soup.find_all(class_="user-ad-row user-ad-row--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline"):
-                itemListing.append(i)
+        #Scrape page
+        itemListing = soup.find_all(class_="user-ad-row link link--base-color-inherit link--hover-color-none link--no-underline")
+        for i in soup.find_all(class_="user-ad-row user-ad-row--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline"):
+            itemListing.append(i)
 
-            for i in soup.find_all(class_="user-ad-row user-ad-row--premium user-ad-row--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline"):
-                itemListing.append(i)
+        for i in soup.find_all(class_="user-ad-row user-ad-row--premium user-ad-row--featured-or-premium link link--base-color-inherit link--hover-color-none link--no-underline"):
+            itemListing.append(i)
 
-            for i in range(0, len(itemListing)):
-                urlList.append("https://www.gumtree.com.au" + itemListing[i]['href'])
+        for i in range(0, len(itemListing)):
+            urlList.append("https://www.gumtree.com.au" + itemListing[i]['href'])
 
     #Display process time
     perfTime = datetime.now() - curTime3 + (curTime2 - curTime1)
@@ -307,16 +312,16 @@ def adExpired(auto=False):
     try: 
         cursor.execute(sql)
         result = cursor.fetchall()
-        data = [ (i[0], i[1]) for i in result]
+        data = [ [i[0], i[1]] for i in result]
         db.commit()
     except Exception as e:
         db.rollback()
         print("Exception occured: {}".format(e))
 
-    print(data)
+    #print(data)
 
     #continue check
-    while auto:
+    while not auto:
         cont = input("%d listings found - Do you wish to continue?: " % (len(data)))
         if cont.lower() == 'y' or cont.lower() == 'yes':
             break
@@ -333,14 +338,14 @@ def adExpired(auto=False):
 
         #Check if page is working
         if page.status_code != 200:
-            print(page.status_code)
+            print(page.status_code, data[i][0])
         #Load page contents into soup
         soup = BeautifulSoup(page.content, 'html.parser')
 
         #Try find ad-expired id
         if soup.find(id="ad-expired"):
             #Returns true if list not empty
-            data[i][2] = curTime
+            #data[i][1] = curTime
             sql = """UPDATE motorcycles
             SET adExpiry=%s
             WHERE url=%s"""
@@ -351,8 +356,9 @@ def adExpired(auto=False):
             except Exception as e:
                 db.rollback()
                 print("Exception occured: {}".format(e))
-            finally:
-                db.close()
+                
+    #Remember to close database at the end            
+    db.close()
         
     print("%d/%d tracked listings have been sold since last processed" % (count, len(data)))
 
@@ -400,7 +406,7 @@ if __name__ == "__main__":
 
     #Find URLs
     print("Finding Listing Pages")
-    urls = findURLs("kawasaki+ninja", "motorcycles", True)
+    urls = findURLs("kawasaki+ninja", "motorcycles")
     print(str(len(urls)) + " URLs have been found")
     #Check if already in db
     urls = checkURLs("motorcycles", urls)

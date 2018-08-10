@@ -1,0 +1,1083 @@
+2018-08-05 12:17
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/762 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  68.474299 Seconds
+830 URLs have been found
+0 URLs are new
+2018-08-05 14:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/764 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  65.649483 Seconds
+833 URLs have been found
+2 URLs are new
+2018-08-05 16:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+6/765 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  69.594735 Seconds
+828 URLs have been found
+3 URLs are new
+2018-08-05 18:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/762 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  70.526912 Seconds
+834 URLs have been found
+6 URLs are new
+2018-08-05 20:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+3/766 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  74.051496 Seconds
+835 URLs have been found
+4 URLs are new
+2018-08-05 22:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/767 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  66.763564 Seconds
+837 URLs have been found
+4 URLs are new
+2018-08-06 00:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  68.483708 Seconds
+836 URLs have been found
+2 URLs are new
+2018-08-06 02:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  65.568862 Seconds
+837 URLs have been found
+1 URLs are new
+2018-08-06 04:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+6/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  60.227535 Seconds
+832 URLs have been found
+0 URLs are new
+2018-08-06 06:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+3/764 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  62.936756 Seconds
+830 URLs have been found
+0 URLs are new
+2018-08-06 08:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/761 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  65.230946 Seconds
+828 URLs have been found
+0 URLs are new
+2018-08-06 10:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+4/760 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  69.406483 Seconds
+830 URLs have been found
+6 URLs are new
+2018-08-06 12:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/762 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  67.686236 Seconds
+829 URLs have been found
+5 URLs are new
+2018-08-06 14:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+5/765 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  68.206027 Seconds
+829 URLs have been found
+6 URLs are new
+2018-08-06 16:00
+Checking whether stored listings have been sold
+500 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/1993-kawasaki-250/1189773239
+500 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/2012-kawasaki-ninja-650/1191566805
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+500 https://www.gumtree.com.au/s-ad/arcadia/motorcycles/kawasaki-ninja-650l-2015/1188253088
+500 https://www.gumtree.com.au/s-ad/athelstone/motorcycles/kawasaki-ninja-2010/1187759597
+500 https://www.gumtree.com.au/s-ad/atherton/motorcycles/2016-kawasaki-ninja/1169943349
+500 https://www.gumtree.com.au/s-ad/atwell/motorcycles/kawasaki-ninja250/1189391267
+500 https://www.gumtree.com.au/s-ad/auburn/motorcycles/kawasaki-ninja-250cc/1189979703
+500 https://www.gumtree.com.au/s-ad/bacchus-marsh/motorcycles/2015-kawasaki-ninja-650r-abs/1166737725
+500 https://www.gumtree.com.au/s-ad/bahrs-scrub/motorcycles/-damaged-2011-kawasaki-ninja250r/1190329351
+500 https://www.gumtree.com.au/s-ad/bakewell/motorcycles/kawasaki-ninja-250/1190790220
+500 https://www.gumtree.com.au/s-ad/balcatta/motorcycles/dealer-used-2017-kawasaki-ninja-zx636r/1188627096
+500 https://www.gumtree.com.au/s-ad/baldivis/motorcycles/2009-kawasaki-ninja-zx6r-monster-energy-special-edition-600-super/1191033559
+500 https://www.gumtree.com.au/s-ad/baldivis/motorcycles/kawasaki-ninja-200r/1189517319
+500 https://www.gumtree.com.au/s-ad/ballajura/motorcycles/kawasaki-ninja-zx6r-monster-energy-edition/1167401936
+500 https://www.gumtree.com.au/s-ad/ballina/motorcycles/2010-kawasaki-650rl-in-good-condition/1191173498
+500 https://www.gumtree.com.au/s-ad/bankstown/motorcycles/zx6r-kawasaki-ninja-636/1190500504
+500 https://www.gumtree.com.au/s-ad/bannockburn/motorcycles/2013-kawasaki-ninja-636-abs/1190047392
+500 https://www.gumtree.com.au/s-ad/banora-point/motorcycles/kawasaki-ninja-2006/1190806889
+500 https://www.gumtree.com.au/s-ad/barmera/motorcycles/kawasaki-ninja/1190068471
+500 https://www.gumtree.com.au/s-ad/bayswater/motorcycles/2013-kawasaki-ninja-300-abs-special-edition/1186665516
+500 https://www.gumtree.com.au/s-ad/beeliar/motorcycles/kawasaki-ninja-300-race-bike/1180644450
+500 https://www.gumtree.com.au/s-ad/beeliar/motorcycles/kawasaki-ninja-650l-motorbike-2014/1187762211
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/766 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  89.042347 Seconds
+739 URLs have been found
+4 URLs are new
+2018-08-06 20:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+4/766 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  92.620602 Seconds
+713 URLs have been found
+10 URLs are new
+2018-08-06 22:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+3/772 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  74.245844 Seconds
+839 URLs have been found
+3 URLs are new
+2018-08-07 00:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/772 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  66.083961 Seconds
+840 URLs have been found
+1 URLs are new
+2018-08-07 02:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/772 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  64.634259 Seconds
+838 URLs have been found
+1 URLs are new
+2018-08-07 04:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+3/773 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  65.597027 Seconds
+837 URLs have been found
+0 URLs are new
+2018-08-07 06:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  65.144669 Seconds
+837 URLs have been found
+0 URLs are new
+2018-08-07 08:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  67.729693 Seconds
+835 URLs have been found
+1 URLs are new
+2018-08-07 10:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  64.034548 Seconds
+837 URLs have been found
+2 URLs are new
+2018-08-07 12:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/771 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  68.437148 Seconds
+837 URLs have been found
+2 URLs are new
+2018-08-07 14:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+8/772 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  63.842317 Seconds
+834 URLs have been found
+4 URLs are new
+2018-08-07 16:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/768 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  67.420314 Seconds
+834 URLs have been found
+4 URLs are new
+2018-08-07 18:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  69.44116 Seconds
+834 URLs have been found
+2 URLs are new
+2018-08-07 20:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+5/772 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  87.245456 Seconds
+832 URLs have been found
+2 URLs are new
+2018-08-07 22:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+4/769 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  78.555387 Seconds
+834 URLs have been found
+5 URLs are new
+2018-08-08 00:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  64.060505 Seconds
+833 URLs have been found
+0 URLs are new
+2018-08-08 02:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  61.352191 Seconds
+834 URLs have been found
+0 URLs are new
+2018-08-08 04:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/770 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  61.629218 Seconds
+828 URLs have been found
+0 URLs are new
+2018-08-08 06:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/768 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  63.596964 Seconds
+829 URLs have been found
+0 URLs are new
+2018-08-08 08:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/768 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  62.574749 Seconds
+830 URLs have been found
+0 URLs are new
+2018-08-08 10:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/768 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  66.229536 Seconds
+831 URLs have been found
+1 URLs are new
+2018-08-08 12:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+6/769 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  66.78479 Seconds
+829 URLs have been found
+3 URLs are new
+2018-08-08 14:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/766 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  67.859761 Seconds
+830 URLs have been found
+1 URLs are new
+2018-08-08 16:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+5/766 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  63.607117 Seconds
+830 URLs have been found
+1 URLs are new
+2018-08-08 18:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/762 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  67.323118 Seconds
+829 URLs have been found
+3 URLs are new
+2018-08-08 20:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+2018-08-08 22:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+10/762 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  68.710598 Seconds
+825 URLs have been found
+6 URLs are new
+2018-08-09 00:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/758 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  62.757346 Seconds
+826 URLs have been found
+1 URLs are new
+2018-08-09 02:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/759 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  61.842906 Seconds
+825 URLs have been found
+0 URLs are new
+2018-08-09 04:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+9/758 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  62.744519 Seconds
+818 URLs have been found
+2 URLs are new
+2018-08-09 06:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/751 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  62.796605 Seconds
+817 URLs have been found
+0 URLs are new
+2018-08-09 08:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/749 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  64.304572 Seconds
+816 URLs have been found
+0 URLs are new
+2018-08-09 10:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/749 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  64.718396 Seconds
+817 URLs have been found
+3 URLs are new
+2018-08-09 12:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/750 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  65.991611 Seconds
+818 URLs have been found
+2 URLs are new
+2018-08-09 14:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+4/751 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  67.288585 Seconds
+818 URLs have been found
+6 URLs are new
+2018-08-09 16:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/753 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  70.041035 Seconds
+821 URLs have been found
+6 URLs are new
+2018-08-09 18:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/757 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  77.618477 Seconds
+825 URLs have been found
+5 URLs are new
+2018-08-09 20:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+3/760 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  76.379847 Seconds
+825 URLs have been found
+3 URLs are new
+2018-08-09 22:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/760 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  73.210081 Seconds
+829 URLs have been found
+5 URLs are new
+2018-08-10 00:00
+Checking whether stored listings have been sold
+2018-08-10 02:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/764 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  63.369232 Seconds
+829 URLs have been found
+0 URLs are new
+2018-08-10 04:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+8/764 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  67.354092 Seconds
+821 URLs have been found
+0 URLs are new
+2018-08-10 06:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/756 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  64.412741 Seconds
+822 URLs have been found
+0 URLs are new
+2018-08-10 08:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+0/756 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  66.322153 Seconds
+822 URLs have been found
+0 URLs are new
+2018-08-10 10:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+1/756 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  65.927809 Seconds
+823 URLs have been found
+1 URLs are new
+2018-08-10 12:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+3/756 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  71.388641 Seconds
+820 URLs have been found
+0 URLs are new
+2018-08-10 14:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+3/753 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  72.104058 Seconds
+817 URLs have been found
+3 URLs are new
+2018-08-10 16:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/753 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  78.508081 Seconds
+818 URLs have been found
+3 URLs are new
+2018-08-10 18:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+2/754 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  69.681518 Seconds
+820 URLs have been found
+4 URLs are new
+2018-08-10 20:00
+Checking whether stored listings have been sold
+404 https://www.gumtree.com.au/s-ad/adelaide-cbd/motorcycles/ninja-kawasaki-300-special-edition-2013-abs/1188585663
+410 https://www.gumtree.com.au/s-ad/appin/motorcycles/2012-kawasaki-ninja-300-special-edition/1187244570
+404 https://www.gumtree.com.au/s-ad/bibra-lake/motorcycles/kawasaki-ninja-250r-immaculate/1187188333
+404 https://www.gumtree.com.au/s-ad/cairns-north/motorcycles/reduced-2008-kawasaki-ninja-250r-immaculate/1185730462
+404 https://www.gumtree.com.au/s-ad/campbelltown/motorcycles/2018-kawasaki-ninja-650l-krt-edition/1183100685
+404 https://www.gumtree.com.au/s-ad/eglinton/motorcycles/kawasaki-zx6-r-ninja/1187320152
+404 https://www.gumtree.com.au/s-ad/ellenbrook/motorcycles/kawasaki-ninja-250/1179698821
+404 https://www.gumtree.com.au/s-ad/jandakot/motorcycles/2007-suzuki-gsxr-600-stunt-drift-streetfighter/1183839595
+410 https://www.gumtree.com.au/s-ad/rivervale/motorcycles/kawasaki-ninja-zx12r/1176401976
+404 https://www.gumtree.com.au/s-ad/yanchep/motorcycles/kawasaki-zx6-r-ninja/1187320152
+3/756 tracked listings have been sold since last processed
+Finding Listing Pages
+Process took:  80.522365 Seconds
+817 URLs have been found
+2 URLs are new
