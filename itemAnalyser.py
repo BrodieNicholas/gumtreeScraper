@@ -15,7 +15,6 @@ df = pd.read_sql(sql, db)
 #Close db
 db.close()
 
+print(df)
 
-
-def analyse(data):
-    
+#def analyse(data):

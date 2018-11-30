@@ -15,7 +15,7 @@ if __name__ == "__main__":
     urls = findURLs("kawasaki+ninja", "motorcycles", True)
     print(str(len(urls)) + " URLs have been found")
     #Check if already in db
-    urls = checkURLs("motorcycles", urls)
+    urls = checkURLs("ninjas", urls)
     print(str(len(urls)) + " URLs are new")
 
     #Insert new url records into the database    

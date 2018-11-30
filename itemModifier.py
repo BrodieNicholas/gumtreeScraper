@@ -19,6 +19,7 @@ def importData(table):
     finally:
         db.close()
     
+    data = [i[0] for i in data]
     return data
     
 if __name__=='__main__':

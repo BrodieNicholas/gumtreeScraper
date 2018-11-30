@@ -150,7 +150,7 @@ class Motorcycle(Item):
         cursor = db.cursor()
 	
         #SQL Query
-        sql = "INSERT IGNORE INTO motorcycles VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NULL);"
+        sql = "INSERT IGNORE INTO ninjas VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NULL);"
 
         #Convert strings into floats
         if self.price == "":
@@ -306,7 +306,7 @@ def adExpired(auto=False):
     curTime = datetime.now().strftime("%Y-%m-%d")
     
     #SQL Query
-    sql = "SELECT url, adExpiry FROM motorcycles WHERE adExpiry IS NULL"
+    sql = "SELECT url, adExpiry FROM ninjas WHERE adExpiry IS NULL"
 
     #Find data
     try: 
@@ -346,7 +346,7 @@ def adExpired(auto=False):
         if soup.find(id="ad-expired"):
             #Returns true if list not empty
             #data[i][1] = curTime
-            sql = """UPDATE motorcycles
+            sql = """UPDATE ninjas
             SET adExpiry=%s
             WHERE url=%s"""
             try:
@@ -409,7 +409,7 @@ if __name__ == "__main__":
     urls = findURLs("kawasaki+ninja", "motorcycles")
     print(str(len(urls)) + " URLs have been found")
     #Check if already in db
-    urls = checkURLs("motorcycles", urls)
+    urls = checkURLs("ninjas", urls)
     print(str(len(urls)) + " URLs are new")
 
     #Check if user wishes to proceed
