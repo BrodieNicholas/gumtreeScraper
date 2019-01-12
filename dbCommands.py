@@ -22,6 +22,35 @@ def describe(table):
     data = [i[0] for i in data]
     return data
 
+def pullData(make="", model="", price="", kms="", location="", listDate="", \
+        year="", displacement="", registered="", regExpiry="", colour="", learner=""):
+    """ Pulls specificed data from mySQL table using filters """
+    #Create connection
+    db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodger", db="allItems", charset='utf8')
+    cursor = db.cursor()
+
+    #Create list of arguments and argument names
+    arguments = (make, model, price, kms, location, listDate, year, displacement, \
+        registered, regExpiry, colour, learner)
+
+    #Create SQL query
+    sql = "SELECT * FROM motorcycles"
+    argCount = 0
+    for i in arguments:
+        if
+
+    try:
+        sql = "SELECT * FROM motorcycles WHERE adExpiry IS NOT NULL AND displacement = 300"
+        df = pd.read_sql(sql, db)
+        print(df)
+
+    except Exception as e:
+        db.rollback()
+        print("Exception occured: {}".format(e))
+
+
+    # Close database
+    db.close()
     
 def createTable():
     """ Creates a predefined mySQL Table for motorbikes"""

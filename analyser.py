@@ -10,7 +10,7 @@ db = pymysql.connect(host="localhost", user="testUser", passwd="BorrisBulletDodg
 cursor = db.cursor()
 
 try:
-    sql = "SELECT * FROM motorcycles WHERE adExpiry IS NOT NULL AND displacement = 300"
+    sql = "SELECT * FROM motorcycles WHERE adExpiry IS NOT NULL"# AND displacement = 300"
     df = pd.read_sql(sql, db)
     print(df)
 finally:
