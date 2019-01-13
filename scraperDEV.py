@@ -5,6 +5,8 @@ from requests.packages.urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
 import re
 import pymysql
+import urllib
+import os
 from tqdm import tqdm
 from warnings import filterwarnings
 tqdm.monitor_interval = 0
@@ -92,7 +94,9 @@ class Motorcycle(Item):
                     description = description + descriptionLst[i].lstrip() + " "
         except:
             description = "NULL"
-
+        #Find images and download if available
+        imgurl = soup.find_all(class_="vip-ad-image__main-image vip-ad-image__main-image--is-visible")
+        
         #Set defaults 
         #----------------------------------------------------------------------
         listDate = "NULL"
